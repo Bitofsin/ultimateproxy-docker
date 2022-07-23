@@ -1,8 +1,0 @@
-﻿You can find various way of generating a .pfx file here: https://medium.com/the-new-control-plane/generating-self-signed-certificates-on-windows-7812a600c2d8
-
-Please generate it without password.
-
-Once generated and placed next to Ultimate Proxy, make sure to add the following to Proxy config:
-Ex: "ProxyCert": "CertFileName.pfx"
-
-

@@ -1,6 +1,6 @@
 ﻿1) 
  ---------------------------------
- use docker cli run
+ use docker exec -it "container" /bin/sh  to run
  cd /config 
 ----------------------------------
 

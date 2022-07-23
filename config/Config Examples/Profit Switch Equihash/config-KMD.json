@@ -1,0 +1,24 @@
+{
+	"allowedAddresses": [
+		"0.0.0.0"
+	],
+	"poolList": [
+		{
+			"address": "eu.luckpool.net",
+			"port": 3858,
+			"ssl": true
+		}
+	],
+	"Coin": "KMD",
+	"Wallet": "RLZDnfh7MqEpzGATZ9womYXJQceFgxwQH3",
+	"Worker": "testing",
+	"Password": "x",
+	"RatioWindowTimeHours": 1,
+	"ProxyPort": 2020,
+	"PrintStats": true,
+	"StatsIntervalSeconds": 30,
+	"NodeGetWorkIntervalMs": 500,
+	"PrintJobs": true,
+	"StaleSharesWindow": 10,
+	"ForceWorkersReconnect": false
+}

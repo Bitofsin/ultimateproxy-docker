@@ -1,0 +1,28 @@
+{
+	"allowedAddresses": [
+	  "0.0.0.0"
+	],
+	"poolList": [
+		{
+			"address": "qkc.ontopool.com",
+			"port": 3899
+		},
+		{
+			"address": "qkc.ontopool.com",
+			"port": 3999
+		}
+	],
+	"Protocol": "Ethproxy",
+	"Coin": "QKC",
+	"Wallet": "0x57f82e5cb27225419008bb22c6c56f39a479448b",
+	"Worker": "testing",
+	"Password": "x",
+	"RatioWindowTimeHours": 1,
+	"ProxyPort": 4444,
+	"PrintStats": true,
+	"StatsIntervalSeconds": 60,
+	"NodeGetWorkIntervalMs": 500,
+	"PrintJobs": true,
+	"StaleSharesWindow": 10,
+	"ForceWorkersReconnect": false
+  }

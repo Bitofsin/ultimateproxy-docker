@@ -1,0 +1,33 @@
+{
+	"AllowedAddresses": [
+		"0.0.0.0"
+	],
+	"PoolList": [
+		{
+			"address": "solo-eth.2miners.com",
+			"port": 16060,
+			"ssl": true,
+			"ratio": 70
+		},
+		{
+			"address": "eth.2miners.com",
+			"port": 12020,
+			"ssl": true,
+			"ratio": 30
+		}
+	],
+	"Protocol": "Ethproxy",
+	"ProxyPort": 4444,
+	"ProxyCert": "",
+	"Coin": "ETH",
+	"Wallet": "0x9AFe5BB47ccFa9aAe2AB4D1E22179f07A8FB18f1",
+	"Worker": "UltimateProxy",
+	"Password": "x",
+	"RatioWindowTimeHours": 24,
+	"PrintStats": true,
+	"StatsIntervalSeconds": 60,
+	"PrintJobs": true,
+	"NodeGetWorkIntervalMs": 500,
+	"StaleSharesWindow": 10,
+	"ForceWorkersReconnect": false
+}

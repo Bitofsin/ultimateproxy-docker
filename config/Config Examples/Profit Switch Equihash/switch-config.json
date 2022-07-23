@@ -1,0 +1,29 @@
+{
+  "Coins": [
+    "HUSH",
+    "KMD",
+    "ZEC",
+    "ZEN"
+  ],
+  "Mode": "PROFIT",
+  "MinimumTimeSeconds": 900,
+  "MinimumDifferencePercent": 1,
+  "ConfigList": [
+    {
+      "Coin": "HUSH",
+      "FileName": "config-HUSH.json"
+    },
+    {
+      "Coin": "KMD",
+      "FileName": "config-KMD.json"
+    },
+    {
+      "Coin": "ZEC",
+      "FileName": "config-ZEC.json"
+    },
+    {
+      "Coin": "ZEN",
+      "FileName": "config-ZEN.json"
+    }
+  ]
+}

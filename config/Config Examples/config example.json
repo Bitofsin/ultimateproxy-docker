@@ -1,0 +1,40 @@
+{
+    "allowedAddresses": [
+      "0.0.0.0"	
+    ],
+      "poolList": [
+      {
+        "address": "eth.2miners.com",
+        "port": 12020,
+        "ssl": true,	
+        "ratio": 98	
+      },
+      {
+        "address": "eth.2miners.com",
+        "port": 2020,
+        "ratio": 1,
+        "wallet": "ANOTHER WALLET",	
+        "password": "ANOTHER PASS"	
+      },
+      {
+        "address": "192.168.1.30",
+        "port": 8545,
+        "node": true,	
+        "ratio": 1	
+      }
+    ],
+    "Protocol": "Stratum", 
+    "Coin": "ETH",	
+    "Wallet": "YOUR WALLET HERE",	
+    "Worker": "UltimateProxy",	
+    "Password": "x",	
+    "RatioWindowTimeHours": 1,	
+    "ProxyPort": 4444,	
+    "ProxyCert": "",	
+    "PrintStats": true,	
+    "StatsIntervalSeconds": 60,	
+    "NodeGetWorkIntervalMs": 500,	
+    "PrintJobs": true,	
+    "StaleSharesWindow": 10, 
+    "ForceWorkersReconnect": false 
+  }

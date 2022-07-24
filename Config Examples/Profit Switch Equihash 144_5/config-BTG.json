@@ -1,0 +1,24 @@
+{
+	"allowedAddresses": [
+	  "0.0.0.0"
+	],
+	"poolList": [
+		{
+			"address": "btg.2miners.com",
+			"port": 14040,
+			"ssl": true
+		}
+	],
+	"Coin": "BTG",
+	"Wallet": "GUei1thSgPkBRKLcFzZMkrd69mY4iyz8f7",
+	"Worker": "testing",
+	"Password": "x",
+	"RatioWindowTimeHours": 1,
+	"ProxyPort": 2020,
+	"PrintStats": true,
+	"StatsIntervalSeconds": 30,
+	"NodeGetWorkIntervalMs": 500,
+	"PrintJobs": true,
+	"StaleSharesWindow": 10,
+	"ForceWorkersReconnect": false
+  }

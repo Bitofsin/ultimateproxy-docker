@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  ultimateproxy:
+    image: bitofsin/ultimateproxy:latest
+    container_name: ultimateproxy
+    volumes:
+      - ${MEDIAROOT}/ultimateproxy/config:/App/config
+    ports:
+     - 4444:4444/tcp
+    restart: unless-stopped  

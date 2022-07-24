@@ -1,8 +1,14 @@
-﻿1) 
- ---------------------------------
- use docker exec -it "container" /bin/sh  to run
- cd /config 
-----------------------------------
+﻿1)
+Ubuntu and Debian:
+---------------------------
+> sudo apt install openssl
+---------------------------
+
+Centos and Fedora:
+---------------------------
+> sudo yum install openssl
+---------------------------
+
 
 2)
 ----------------------------------
@@ -44,6 +50,9 @@ CN= - The fully qualified domain name.
 
 4)
 If you did all aboves commands in the Ultimate Proxy folder, then your example.pfx file should be here.
+
+Please copy the example.pfx to the mapped container folder
+
 Just make sure to add the following to the proxy config to enable SSL listening:
 
 "ProxyCert": "/App/config/example.pfx"

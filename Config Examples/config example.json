@@ -30,7 +30,7 @@
     "Password": "x",	
     "RatioWindowTimeHours": 1,	
     "ProxyPort": 4444,	
-    "ProxyCert": "",	
+    "ProxyCert": "/App/config/example.pfx",	// the proxy in container needs this path before the .pfx file
     "PrintStats": true,	
     "StatsIntervalSeconds": 60,	
     "NodeGetWorkIntervalMs": 500,	

@@ -5,6 +5,8 @@ services:
     container_name: ultimateproxy
     volumes:
       - ${MEDIAROOT}/ultimateproxy/config:/App/config
+     #edit the system directory to a folder on your system for easier editting of proxy config/persistence of config 
     ports:
-     - 4444:4444/tcp
+     - 4444:4444/tcp  #set this as the default port in proxy config and change on host side 
     restart: unless-stopped  
+    # if an invalid config is found this will cause the proxy to reset the config and restart continuously.

@@ -4,9 +4,14 @@ services:
     image: bitofsin/ultimateproxy:latest
     container_name: ultimateproxy
     volumes:
-      - ${MEDIAROOT}/ultimateproxy/config:/App/config
-     #edit the system directory to a folder on your system for easier editting of proxy config/persistence of config 
+      - /home/user/appdata/ultimateproxy:/App/config
+    environment:
+      - PUID=1000
+      - PGID=1000
     ports:
-     - 4444:4444/tcp  #set this as the default port in proxy config and change on host side 
-    restart: unless-stopped  
-    # if an invalid config is found this will cause the proxy to reset the config and restart continuously.
+      - 4444:4444
+    
+    restart: unless-stopped
+
+# please change the volume path on host to save config/data to a location you specify
+#port 4444 on container image is set to export in Dockerfile build

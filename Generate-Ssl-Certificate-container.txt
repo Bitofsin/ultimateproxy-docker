@@ -42,6 +42,7 @@ CN= - The fully qualified domain name.
 > openssl pkcs12 -export -out example.pfx -inkey example.key -in example.crt
 -----------------------------------------------------------------------------------------
 
+Please generate it without password.
 
 4)
 If you did all aboves commands in the Ultimate Proxy folder, then your example.pfx file should be here.

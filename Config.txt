@@ -34,7 +34,7 @@
   "Password": "x",	// Proxy password
   "RatioWindowTimeHours": 1,	// Used for ratio switch strategie, minimum 1H maximum 24H
   "ProxyPort": 4444,	// Proxy port
-  "ProxyCert": "",	// Set it if you want your workers to connect to proxy using SSL (See "Docs" folder create a .pfx file)
+  "ProxyCert": "",	// Set it if you want your workers to connect to proxy using SSL (See "Docs" folder create a .pfx file) App/config/example.pfx the proxy in container needs this path before the .pfx file
   "PrintStats": true,	// Display workers/pools stats
   "StatsIntervalSeconds": 60,	// Delay between PrintStats
   "NodeGetWorkIntervalMs": 500,	// Delay between node solo getWork requests

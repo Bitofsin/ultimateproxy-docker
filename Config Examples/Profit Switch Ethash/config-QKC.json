@@ -14,7 +14,7 @@
 	],
 	"Protocol": "Ethproxy",
 	"Coin": "QKC",
-	"Wallet": "0x57f82e5cb27225419008bb22c6c56f39a479448b",
+	"Wallet": "YOUR WALLET HERE",
 	"Worker": "testing",
 	"Password": "x",
 	"RatioWindowTimeHours": 1,

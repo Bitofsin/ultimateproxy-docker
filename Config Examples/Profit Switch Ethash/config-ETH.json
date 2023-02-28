@@ -20,7 +20,7 @@
 	"ProxyPort": 4444,
 	"ProxyCert": "",
 	"Coin": "ETH",
-	"Wallet": "0x9AFe5BB47ccFa9aAe2AB4D1E22179f07A8FB18f1",
+	"Wallet": "YOUR WALLET HERE",
 	"Worker": "UltimateProxy",
 	"Password": "x",
 	"RatioWindowTimeHours": 24,

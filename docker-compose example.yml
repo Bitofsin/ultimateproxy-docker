@@ -3,11 +3,12 @@ services:
   ultimateproxy:
     image: bitofsin/ultimateproxy:latest
     container_name: ultimateproxy
-    volumes:
-      - /home/user/appdata/ultimateproxy:/App/config
+    
     environment:
       - PUID=1000
       - PGID=1000
+    volumes:
+      - <path to host dir>:/config
     ports:
       - 4444:4444
     

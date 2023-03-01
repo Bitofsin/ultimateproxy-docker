@@ -22,13 +22,13 @@ The folowing repo has all the most up to date information on the proxy https://g
   ],
     "poolList": [
     {
-      "address": "us.ethw.herominers.com",
+      "address": "ethw.herominers.com",
       "port": 1147,
       "ssl": true,	// SSL Pool
       "ratio": 98	// Will mine for 98% of RatioWindowTimeHours before switching
     },
     {
-      "address": "us.ethw.herominers.com",
+      "address": "na.ethw.herominers.com",
       "port": 1147,
       "ratio": 1,	// Will mine for 1% of RatioWindowTimeHours before switching
       "wallet": "solo:ANOTHER WALLET",	// Will use this wallet instead of global Wallet (Note: "solo:" is used to solo mine on herominers)
@@ -66,7 +66,9 @@ The folowing repo has all the most up to date information on the proxy https://g
 
 ## SmartSwitching Example Etchash and NH Etchash
 
-"config.json" file name is requird. Format the file with Auto switching. 
+"config.json" file name is requird. 
+
+Make sure to not change the file name just the contents. if the file name gets changed the proxy wont be able to find it.
 
 For smart switching to work in the docker container the coin Filename paths must be like below
 

@@ -13,7 +13,7 @@ The folowing repo has all the most up to date information on the proxy https://g
 
 ## Ratio and Failover Switching
 <details>
-<summary>This is the same as UltimateProxyV2 Repo</summary>
+<summary>This is the same as UltimateProxyV2 Repo click to show</summary>
 
 ```javascript
 {

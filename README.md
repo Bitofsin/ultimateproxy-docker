@@ -1,4 +1,4 @@
-# ultimateproxy-docker has been updated to UltimateProxyV2.2.0.0
+# ultimateproxy-docker has been updated to UltimateProxyV2.2.1.6
 This is the first container i have built. 
 
 The UltimateProxyV2 is launched with the "config/config.json" in the container this is the main config.json

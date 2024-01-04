@@ -14,5 +14,6 @@ RUN cp -r Config*Examples/ ./config/
 RUN rm -r Config*Examples
 RUN rm config.json
 RUN rm UltimateProxy-v2.2.1.6-linux-x64.zip
+EXPOSE 4444
 
 ENTRYPOINT ["./UltimateProxyV2","./config/config.json"]
